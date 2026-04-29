@@ -2,7 +2,8 @@
 set -euo pipefail
 
 if [ $# -eq 0 ]; then
-  echo "Usage: grab.sh <instagram-url> [output-dir]"
+  echo "Usage: grab.sh <url> [output-dir]"
+  echo "Supports: Instagram, TikTok, YouTube, and 1000+ other sites"
   echo "Example: grab.sh https://www.instagram.com/reel/ABC123/"
   exit 1
 fi
